@@ -1,0 +1,36 @@
+#+TITLE: Analysis of 
+#+AUTHOR: Konrad U. Förstner
+
+#+BEGIN_SRC sh
+echo "this is a test" | sed "s/a test/an experiment/"
+#+END_SRC
+
+#+RESULTS:
+: this is an experiment
+
+#+NAME python_example
+#+BEGIN_SRC python :results file :exports both
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.plot([4, 2, 3, 1])
+plt.savefig('test_plot.png')
+return('python_test_plot.png')
+#+END_SRC
+
+#+RESULTS:
+[[file:python_test_plot.png]]
+
+#+BEGIN_SRC python :results output
+print("A test")
+print("Another test")
+#+END_SRC
+
+#+RESULTS:
+: A test
+: Another test
+
+#+BEGIN_SRC R :results
+plot(c(1, 3, 4, 1))
+#+END_SRC
+
+#+RESULTS:

@@ -1,0 +1,4 @@
+* Example of literate programming with GNU/Emacs + org-mode + Babel
+
+Several examples of literate programming for reproducible research can
+be found at http://orgmode.org/worg/org-contrib/babel/uses.html.

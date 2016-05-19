@@ -4,5 +4,16 @@ This is a small collection of examples how to use [[http://www.gnu.org/software/
 [[http://orgmode.org/][org-mode]] + [[http://orgmode.org/worg/org-contrib/babel/][Babel]] as [[https://en.wikipedia.org/wiki/Literate_programming][literate programming]] environment for reproducible
 research.
 
+** Links / documentation
+
 Several examples by other users can be found found at
 http://orgmode.org/worg/org-contrib/babel/uses.html.
+
+- [[http://orgmode.org/worg/org-contrib/babel/intro.html][Babel Introduction]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/org/Exporting-code-blocks.html][Code block export]]
+
+Language specific documentation:
+- [[http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html][Python]]
+- [[http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html][R]]
+- [[http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-LaTeX.html][LaTeX]]
+- And [[http://orgmode.org/worg/org-contrib/babel/languages/][many more]]

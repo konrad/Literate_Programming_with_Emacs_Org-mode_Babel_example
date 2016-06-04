@@ -11,7 +11,8 @@ http://orgmode.org/worg/org-contrib/babel/uses.html.
 
 - [[http://orgmode.org/worg/org-contrib/babel/intro.html][Babel Introduction]]
 - [[https://www.gnu.org/software/emacs/manual/html_node/org/Exporting-code-blocks.html][Code block export]]
-- [[http://www.draketo.de/english/emacs/parallel-babel][Org-mode with Parallel Babel]]
+- [[http://www.draketo.de/english/emacs/parallel-babel][Org-mode with Parallel Babel]] e.g. for running long-running program
+  calls
 
 Language specific documentation:
 - [[http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html][Python]]

@@ -1,8 +1,14 @@
 #+TITLE: Analysis of ...
 #+AUTHOR: Konrad U. Förstner
-#+EMAIL: 
+#+EMAIL: konrad.foerster@uni-wuerzburg.de
 #+DATE: 2016-01-01
 #+LANGUAGE: en
+#+OPTIONS: ^:nil
+
+* Use full Emacs-org mode links
+- Header Args: http://orgmode.org/worg/org-contrib/babel/header-args.html
+- Python related: http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+- R related: http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html
 
 * Aim 
 
@@ -17,12 +23,10 @@ echo "this is a test" | sed "s/a test/an experiment/"
 #+RESULTS:
 : this is an experiment
 
-#+BEGIN_SRC python :results file :exports both
-import pandas as pd
+#+BEGIN_SRC python :results file :export code
 import matplotlib.pyplot as plt
 plt.plot([4, 2, 3, 1])
 plt.savefig('test_plot.png')
-return('python_test_plot.png')
 #+END_SRC
 
 #+RESULTS:

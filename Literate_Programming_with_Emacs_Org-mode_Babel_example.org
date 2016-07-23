@@ -63,6 +63,24 @@ plot(c(1, 3, 4, 1))
 
 #+RESULTS:
 
+** Use of sessions
+
+#+BEGIN_SRC python :export both :var a_var=5 :session x
+x = 9
+return a_var
+#+END_SRC
+
+#+RESULTS:
+
+
+#+BEGIN_SRC python :export both :var a_var=5 :results output :session x
+print(x)
+#+END_SRC
+
+#+RESULTS:
+: 
+: 9
+
 
 * Conclusion / Discussion
 
